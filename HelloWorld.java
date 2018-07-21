@@ -146,7 +146,7 @@ public class UnRar {
 							String resultString = unrar(
 									new File(file2.getAbsolutePath()),
 									new File(file2.getParent()));
-							System.out.println("解压成功！解压钱的文件目录为:"
+							System.out.println("解压成功！解压前的文件目录为:"
 									+ file2.getAbsolutePath() + "解压后的为: "
 									+ resultString);
 						}
